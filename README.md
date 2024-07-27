@@ -33,3 +33,7 @@ Webapp repo: https://github.com/chris-tier4/todo-app
 E2E functional test suite - `tests/e2e.spec.js`
 
 UI functional test suite - `tests/ui.spec.js`
+
+---
+
+[Hackathon presentation slides](https://docs.google.com/presentation/d/18FKS8XcgUI7Ld02nQDCYr1dcBcJZ72qjBsC_YG_A2Do/edit?usp=sharing)
