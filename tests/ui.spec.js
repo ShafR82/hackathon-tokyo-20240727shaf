@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 const AxeBuilder = require("@axe-core/playwright").default;
-const { MainPage } = require("../lib/pageobjects/main.page");
+const { MainPage } = require("../lib/pageobjects/LoginPage");
 
 test.beforeAll(async ({ request }) => {
     const req = await request.get("/api/advertisements/db/drop?confirm=y");
