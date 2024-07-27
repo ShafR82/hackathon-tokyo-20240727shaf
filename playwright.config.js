@@ -18,9 +18,7 @@ const config = {
     reporter: [[process.env.CI ? "dot" : "list"], ["html", { open: "never" }]],
     use: {
         browserName: "chromium",
-        headless: false,
-
-        // baseURL: "https://admin-advertisement.herokuapp.com",
+        headless: true,
 
         viewport: { width: 1280, height: 720 },
         ignoreHTTPSErrors: false,
