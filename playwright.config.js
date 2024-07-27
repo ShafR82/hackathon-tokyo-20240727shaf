@@ -10,7 +10,7 @@ const config = {
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 2 : 0,
     workers: 1,
-    testDir: "tests",
+    testDir: "./tests",
     testMatch: ["**/__tests__/**/*.+(ts|tsx|js)", "**/?(*.)+(spec|test).+(ts|tsx|js)"],
     timeout: 80000,
 
@@ -19,7 +19,7 @@ const config = {
         browserName: "chromium",
         headless: false,
 
-        baseURL: "https://admin-advertisement.herokuapp.com",
+        // baseURL: "https://admin-advertisement.herokuapp.com",
 
         viewport: { width: 1280, height: 720 },
         ignoreHTTPSErrors: false,
