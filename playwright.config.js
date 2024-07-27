@@ -9,7 +9,8 @@ expect.extend(matchers);
 const config = {
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 2 : 0,
-    workers: 1,
+    workers: 4,
+    fullyParallel: true,
     testDir: "./tests",
     testMatch: ["**/__tests__/**/*.+(ts|tsx|js)", "**/?(*.)+(spec|test).+(ts|tsx|js)"],
     timeout: 80000,

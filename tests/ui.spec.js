@@ -29,6 +29,7 @@ test.describe("ui functional Test", () => {
     test("Log Out after Login test", async ({ page }) => {
         const loginPage = new LoginPage(page);
         await loginPage.goto(credentials.url,credentials.userID,credentials.password);
+        
         await loginPage.logOutAfterLogin();
 
         //expect(accessibilityScanResults.violations).toEqual([]);
