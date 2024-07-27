@@ -25,6 +25,7 @@ Recommended to use any terminal app that you prefer.
 ---
 
 Webapp under test: https://todo-app-qajp.vercel.app/
+
 Webapp repo: https://github.com/chris-tier4/todo-app
 
 ---
@@ -32,5 +33,3 @@ Webapp repo: https://github.com/chris-tier4/todo-app
 E2E functional test suite - `tests/e2e.spec.js`
 
 UI functional test suite - `tests/ui.spec.js`
-
-API functional test suite - `tests/api.spec.js`
