@@ -19,7 +19,7 @@ const config = {
         browserName: "chromium",
         headless: false,
 
-        baseURL: "https://admin-advertisement.herokuapp.com",
+        baseURL: "https://todo-app-qajp.vercel.app/",
 
         viewport: { width: 1280, height: 720 },
         ignoreHTTPSErrors: false,
