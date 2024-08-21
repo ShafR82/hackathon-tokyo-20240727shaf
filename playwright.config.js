@@ -17,7 +17,7 @@ const config = {
 
     reporter: [[process.env.CI ? "dot" : "list"], ["html", { open: "never" }]],
     use: {
-        browserName: "chromium",
+        browserName: "firefox",
         headless: true,
 
         viewport: { width: 1280, height: 720 },
