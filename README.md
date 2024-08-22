@@ -1,6 +1,10 @@
-# hackathon-tokyo-20240727
+# hackathon-tokyo-20240727shaf
 
 Japan Testing Community Hackathon project: automated webapp testing with Javascript and Playwright framework.
+
+**Introduction:**
+This repository is a fork of the original "hackathon-tokyo-20240727" repo.
+The original one was our contribution for Japan Testing Community's 2024 Hackathon, I forked it to learn and pratice web automation with Playwright.  
 
 ---
 
